@@ -1,0 +1,22 @@
+main {
+  background: #E67676;
+  border: 7px solid #4285f4;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px 10px 20px 10px;
+  width: 195px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.North{
+  margin: 0px;
+  padding: 10px;
+}
+
+.South{
+   margin: 0px;
+   background: #A9E6E6;
+   padding: 10px;
+}

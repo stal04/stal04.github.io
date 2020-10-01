@@ -1,0 +1,11 @@
+a {
+  color: green;
+  display: block;
+  font-family: 'Sen', sans-serif;
+  margin: 10px;
+}
+
+a:hover {
+  color: lime;
+  text-decoration: none;
+}
