@@ -2,47 +2,88 @@ body {
     background-image: linear-gradient(
       to right,
       grey,
-      rgba(255, 255, 255, 0.473),
+      rgba(255, 255, 255, 0.425),
       grey
     );
 }
-    
+
 .container {
     width: 1200px;
-    height: 600px;
-    margin: auto;
-    margin-top: 50px;
+    margin: 20px auto auto auto;
+  }
+
+main {
     display: flex;
+    box-shadow: 0px 5px 25px 5px rgba(8, 7, 7, 0.219);
+}
+
+.picture {
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    position: relative;
   }
 
-image{
-    width: 100px;
-    height: 200px;
-}
-
-#arrow{
-    height: 10px;
-    width: 10px;
-}
-
-.cont_left, .cont_right{
-    background-color: white;
-    text-align: center;
-    height: 50%;
-    width: 50%;
-}
-    
-
-#left_arrow, #right_arrow {
-  position: relative;
-  top: 50%;
-  transform: translateY (-50%);
-}
-
-#right_arrow {
-    transform: scaleX(-1);
+  .picture img {
+    max-height: 650px;
+    width: 100%;
+    margin: auto;
   }
 
-  h1,p {
-  padding: 0 20px 0 20px;
+  #left_arrow, #right_arrow {
+    position: relative;
+    top: 50%;
+    width: 50px;
+    height: auto;
+    transform: translateY (-50%);
+  }
+  
+  #right_arrow {
+      transform: scaleX(-1);
+    }
+
+
+.gray_container{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    height: 170px;
+    width: 940px;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 5;
+    }
+
+    aside{
+        height: auto;
+        width: auto;
+        padding: 10px;
+        background-image:linear-gradient(to bottom, ivory, rgb(217, 227, 235)) ;
+      }
+
+
+ .thumbnail{
+        display: block;
+        border: 1px solid rgb(172, 171, 171);
+        border-radius: 4px;
+        padding: 5px;
+        margin-top: 10px;
+        margin-right: 5px;
+        width: 90px;
+        opacity: 0.8;
+        position: relative;
 }
+
+  #photo-title {
+    font-size: 1.4rem;
+    opacity: 1;
+    padding: 0;
+    margin: 5px 0;
+  }
+  
+  #photo-description {
+    font-size: 1.3rem;
+    opacity: 0.6;
+    padding-top: 0;
+    margin-top: 5px;
+  }
