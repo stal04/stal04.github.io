@@ -8,7 +8,7 @@ body {
     height: 100%;
 }
 h1{
-    font-family: 'Indie Flower', cursive;
+    font-family:'Montserrat', sans-serif;;
     font-size: 40px;
 }
 
@@ -92,7 +92,7 @@ aside{
     padding-top: 0;
     margin-top: 5px;
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     left: 16px;
     color: white;
   }
@@ -153,3 +153,25 @@ aside{
   .thumbnails:hover .thumbnail-title {
     visibility: visible;
   }
+
+  .highlightedThumbnail {
+    box-shadow: 0px 0px 8px 10px rgba(0, 0, 0, 0.479),
+      0 6px 20px 0 rgba(0, 0, 0, 0.801);
+    position: relative;
+  }
+
+  .highlightedThumbnail:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: #000000fb;
+    border-width: 10px;
+    margin-left: -10px;
+  }
+  
