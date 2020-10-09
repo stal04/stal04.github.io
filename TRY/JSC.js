@@ -9,16 +9,16 @@ const photo = $("#photo"),
 let data = [{
     photos: "/stal04.github.io/My_first_webpage/images/VT.jpg",
     titles: "Vysoké Tatry",
-    descriptions: "Biggest slovakian mountains. Beautyful views and a lot of possibilities for haking. With the highest mountain Gerlachovský štít.",
+    descriptions: "Biggest Slovak mountains. Beautiful views and a lot of possibilities for hiking. Highest mountain of SLovakia is placed in Tatras and is called Gerlachovský štít.",
 }, {
     photos: "/stal04.github.io/My_first_webpage/images/trnava.jpg",
     titles: "Trnava",
-    descriptions: "My hometown, prettiest and coziest place in the world. Called also Small Rome for its 13 churches. Always a pleasure to come back here.",
+    descriptions: "My hometown, prettiest and coziest place in the world. Its also called Small Rome for its 13 churches. Its always a pleasure to come back home.",
 },
 {
     photos: "/stal04.github.io/My_first_webpage/images/bratislava.jpg",
     titles: "Bratislava",
-    descriptions: "Capital of Slovakia! Amazing city full of life and great people. Its castle, old part of the town or UFO restaurant is one of the most visited places.",
+    descriptions: "Capital of Slovakia! Amazing city full of life and great people. Its castle, old part of the town or UFO restaurant are some of the most visited places.",
 },
 {
     photos: "/stal04.github.io/My_first_webpage/images/bojnice.jpg",
@@ -28,7 +28,7 @@ let data = [{
 {
     photos: "/stal04.github.io/My_first_webpage/images/pohoda.jpeg",
     titles: "Pohoda",
-    descriptions: "Biggest slovakian festival, every year full of amazing artist names. You don´t have to worry in this place! About anything!",
+    descriptions: "Biggest Slovak festival, every year full of amazing artists. You don´t have to worry in this place! About anything!",
 },
 ]
 
