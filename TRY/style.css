@@ -6,6 +6,10 @@ body {
       grey
     );
 }
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+}
 
 main {
     display: flex;
@@ -67,7 +71,6 @@ aside{
     display: flex;
     margin-top: 20px;
     justify-content: center;
-    background-color: brown;
   }
 
 
@@ -102,4 +105,50 @@ aside{
     bottom: 0px;
     left: 0px;
 }
+
+.thumbnail-img {
+    height: 100%;
+  }
   
+  .thumbnails {
+    background-color: rgb(226, 226, 226);
+    box-shadow: 0px 9px 15px -3px rgba(0,0,0,1);
+    height: 120px;
+    padding: 4px;
+    margin: 4px;
+    position: relative;
+    transition: all ease 300ms;
+  }
+  
+  .thumbnails:hover {
+    box-shadow: 0px 25px 20px -3px rgba(0,0,0,0.75);
+    transform: scale(1.3) translate(0,-25%);
+    z-index: 6;
+    cursor: pointer;
+  }
+
+  .thumbnail-title {
+    background-color: black;
+    border-radius: 3px;
+    position: absolute;
+    width: 150%;
+    visibility: hidden;
+    height: 30px;
+    top: -40px;
+    left: -25%;
+    box-shadow: 0px 13px 20px -3px rgba(0,0,0,0.75);
+    z-index: 5;
+    opacity: 0.9;
+  }
+  
+  .thumbnail-title h6 {
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: -18px;
+    text-align: center;
+  }
+  
+  .thumbnails:hover .thumbnail-title {
+    visibility: visible;
+  }
