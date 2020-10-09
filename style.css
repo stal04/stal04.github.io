@@ -4,3 +4,8 @@ p{
 a{
     display: block;
 }
+
+h1{
+    background-color: blueviolet;
+    color: white;
+}

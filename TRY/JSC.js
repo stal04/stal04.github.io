@@ -26,7 +26,7 @@ let data = [{
     descriptions: "This wonderful castle was built in the 12th century and still has original Gothic and Renaissance elements built in. It is a popular filming stage for fantasy and fairy-tale movies. ",
 },
 {
-    photos: "/stal04.github.io/My_first_webpage/images/pohoda2.jpg",
+    photos: "/stal04.github.io/My_first_webpage/images/pohoda.jpeg",
     titles: "Pohoda",
     descriptions: "Biggest slovakian festival, every year full of amazing artist names. You don´t have to worry in this place! About anything!",
 },
