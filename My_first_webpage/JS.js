@@ -1,9 +1,10 @@
+/*
 const photo       = $("#photo"),
       title       = $("#photo-title"),
       description = $("#photo-description"),
       back        = $("#back"),
       forward     = $("#forward");
-/*
+
 let image1 = {
     photo: "images/krivan.jpg",
     title: "Kriváň",
@@ -17,7 +18,9 @@ let image2 = {
 };
 
 let images_data =[image1,image2]
-let currentPhoto = 0; */
+let currentPhoto = 0; 
+
+
 
 let data = {
     photo: 'images/krivan.jpg',
@@ -33,4 +36,8 @@ let loadPhoto = (photoNumber) => {
   }
   
   loadPhoto(currentPhoto);
- 
+ */
+
+  $(".body").append(
+    "<h1>Hello World!</h1>"
+  );
